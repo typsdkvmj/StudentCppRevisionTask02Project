@@ -22,5 +22,8 @@
 */
 
 int task02(int seeker, int coin) {
-	return 0;
+
+	int coins = coin % seeker;
+
+	return coins;
 }
